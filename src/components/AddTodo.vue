@@ -9,7 +9,7 @@
 </template>
 <script>
 //import uuid from 'uuid';
-import { v4 as uuidv4 } from 'uuid';
+//import { v4 as uuidv4 } from 'uuid';
 
 export default {
     name:"AddTodo",
@@ -27,7 +27,7 @@ export default {
             const newTodo ={
                 //npm i uuid
                 //A simple unique id generator
-                id: uuidv4(),
+                //id: uuidv4(),
                 title: this.title,
                 completed: false
             }
